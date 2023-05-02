@@ -4,7 +4,7 @@ public class AnonymousArray {
 
     public static void main(String[] args) {
         AnonymousArray anonymousArray = new AnonymousArray();           //creating instance of class
-        //calling sumOfArrayElements() passing Anonymous array as an argument
+        //calling sumOfArrayElements() method passing Anonymous array as an argument
         anonymousArray.sumOfArrayElements(new int[]{10,20,30,40,50});
     }
 
