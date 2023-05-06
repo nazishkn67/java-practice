@@ -17,5 +17,16 @@ public class LargestOfThree {
             System.out.println("b is largest");
         else                    //else c is largest of three
             System.out.println("c is largest");
+
+        //nested if-else
+        if(a>b) {
+            if(a>c)
+                System.out.println("a is largest");
+            else
+                System.out.println("c is largest");
+        } else {
+            if(b>c)
+                System.out.println("b is largest");
+        }
     }
 }
